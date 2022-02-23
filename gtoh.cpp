@@ -17,8 +17,15 @@ void gtoh(string x) {
 }
 
 int main(int argc, char **argv) {
-	if (!(argc > 1))
-		return 1; // TODO: Bash piping support
+	if (!(argc > 1)) {
+		string x;
+		while (getline(cin, x)) {
+			gtoh(x);
+			cout << '\n';
+		}
+
+		return 0;
+	}
 
 	for (int i = 1; i < argc; ++i) {
 		if (i > 1) cout << ' ';
