@@ -2,7 +2,7 @@
 Converts the letter G to H
 
 # Building
-    c++ gtoh.cpp -o gtoh
+    g++ gtoh.cpp -o gtoh
 
 # Usage
 Read from arguments:
