@@ -16,3 +16,5 @@ Output: ```Enter a sentence that contains the letter H```
 
 TODO: Add bash piping support: ```cat document.txt | ./gtoh```
 and maybe an ability to read from file
+
+Alternative: ```./gtoh "$(cat document.txt)"```
