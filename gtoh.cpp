@@ -2,7 +2,7 @@
 #include <cstring>
 using namespace std;
 
-void gtoh(string x) {
+void gtoh(const string x) {
 	char y[x.length() + 1];
 	strcpy(y, x.c_str());
 
