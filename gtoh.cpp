@@ -23,15 +23,14 @@ int main(int argc, char **argv) {
 			gtoh(x);
 			cout << '\n';
 		}
+	} else {
+		for (int i = 1; i < argc; ++i) {
+			if (i > 1) cout << ' ';
+			gtoh(string(argv[i]));
+		}
 
-		return 0;
+		cout << '\n';
 	}
 
-	for (int i = 1; i < argc; ++i) {
-		if (i > 1) cout << ' ';
-		gtoh(string(argv[i]));
-	}
-
-	cout << '\n';
 	return 0;
 }
