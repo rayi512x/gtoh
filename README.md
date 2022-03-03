@@ -2,6 +2,10 @@
 Converts the letter G to H
 
 # Building
+    # Clone this repository
+    git clone https://github.com/rayi512x/gtoh.git && cd gtoh
+    
+    # Build using g++ (you can also build it with clang++)
     g++ gtoh.cpp -o gtoh
 
 # Usage
