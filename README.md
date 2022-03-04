@@ -12,8 +12,8 @@ Converts the letter G to H
 Read from arguments:
 
     ./gtoh 'Enter a sentence that contains the letter G'
-or
 
+    # or
     ./gtoh Enter a sentence that contains the letter G
 
 Output: ```Enter a sentence that contains the letter H```
@@ -21,3 +21,6 @@ Output: ```Enter a sentence that contains the letter H```
 Bash pipe:
 
     cat document.txt | ./gtoh
+
+    # or
+    ./gtoh < document.txt
