@@ -3,7 +3,7 @@
 using namespace std;
 
 void gtoh(const string& x) {
-	char y[x.length()];
+	char y[x.length() + 1];
 	strcpy(y, x.c_str());
 
 	for (int i = 0; i < x.length(); ++i) {
